@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="Theme.Duosuccess" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

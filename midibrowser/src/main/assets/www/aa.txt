@@ -1,0 +1,123 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gn2312" />
+<meta name="keywords" content=""/>
+<meta name="description" content="" />
+<link type="text/css" rel="stylesheet" href="style.css" />
+<title> ¨¦?o¡ê??¨¨???3¦Ì¡¤t??¨ª?</title>
+</head>
+<body>
+<div class="wrapper">
+  <div class="header">
+    <h1 class="logo"><img src="images/logo.jpg" /></h1>
+    <div class="topInfo">¨¢a?¦Ì¦Ì??¡ã¡êo18621758877   15921697171</div>
+  </div>
+  <div class="nav">
+    <ul class="navList">      <li><a href="index.asp">¨ª???¨º¡Á¨°3</a></li>
+      <li><a href="about.asp">1?¨®¨²?¨°??</a></li>
+      <li><a href="product.asp">?????1¨º?</a></li>
+      <li><a href="message.asp">¡¤t??????</a></li>
+	  <li><a href="xuzhi.asp">¨¦???D??a</a></li>
+	   <li><a href="jie.asp">¨¦???¨°¨¦?¨º?a¡äe</a></li>
+	    <li><a href="guohu.asp">1y?¡ì¡Áa??</a></li>
+		 <li><a href="fuwu.asp">?¨¦3¦Ì¡¤t??</a></li>
+      <li><a href="contact.asp">¨¢a?¦Ì?¨°??</a></li>
+    </ul>
+    <span class="navRight"></span>
+  </div>  
+  <div class="banner"><img src="images/banner.jpg" width="950" /></div>  
+  <div class="main">  
+      <div class="mode_side">
+        <div class="panel">
+         <div class="hd"><strong>¨ª????1¨º?</strong></div>
+         <div class="bd" style="height:160px;">  <!-- 2£¤¡¤??¡Â begin -->
+  <script language="JavaScript" type="text/javascript" src="gw_swf1/gw_swf1.js"></script>
+  <script language="JavaScript" type="text/javascript">
+//2?¨ºy?¦Ì?¡Â¡êo
+//swf_objname,swf_wmode,swf_bgcolor¡êoFLASH???¨®ID,¡À3?¡ã¨¦?¨ª??¡Â?¡ê¨º?(0¨ª??¡Â,12?¨ª??¡Â),¡À3?¡ã¨¦?
+//img_width,img_height,text_height¡êo¨ª????¨ª,¨ª?????,??¡Á?¡À¨º¨¬a???¨¨(¡Á????a20,2???¨º?¨¦¨¨?a0?¡ä?¨¦)
+//img_urls,img_links,img_texts¡êo¨ª???¦Ì??¡¤,¨ª???¨¢¡ä?¨®,¨ª???¡À¨º¨¬a(??¨°?|?a¡¤???¡¤?)
+gw_swf1("flash1",0,"#ffffff",193,160,0,"pro/1.jpg|pro/2.jpg|pro/3.jpg|pro/4.jpg","","");
+  </script>
+<!-- 2£¤¡¤??¡Â end --></div>
+        </div>
+      <div class="panel">
+         <div class="hd"><strong>¨¢a?¦Ì?¨°??</strong></div>
+         <div class="bd"><span style="font-weight: bold">¨¦?o¡ê??¨¨???3¦Ì¡¤t??¨ª?</span><br />
+¨¢a?¦Ì¨¨?¡êo??¡¤¨¦¡¤¨¢<br />
+¨º??¨²¡êo18621758877   15921697171
+<br />
+¦Ì??¡ã¡êo65111951<br />
+¨®¨º??1819491068@qq.com<br />
+¨¢a?¦Ì¦Ì??¡¤¡êo¨¦?o¡ê¨ºD????????D??¡¤304o?<br />
+¡ê¡§¦Ì?¨¬¨²8o??????-?¡¤3??¨²¡ê?868?¡é139?¡é147¡ê?<br />
+¨ª??¡¤¡êowww .mingrenqiche.com</div>
+      </div>
+     <div class="sideAd"></div>
+     
+    </div>
+    <div class="mode_content"> 
+	     
+      <div class="pageBd" style="padding:12px;">
+	  
+	  <table width="715" border="0" cellspacing="0" cellpadding="0" class="tuijian">
+        <tr>
+          <th colspan="2" bgcolor="#e2e2e2" scope="col" style="font-weight:bold;line-height:28px;font-size:14px;">¨ª????1¨º?</th>
+        </tr>
+        <tr>
+          <td align="center" scope="col"><div id="demo" style="OVERFLOW: hidden; WIDTH:696px;">
+              <table width="95%" align="center">
+                <tr>
+                  <td id="demo1" colspan="3"><table width="100%">
+                      <tr>
+                        <td width="130"><img src="pro/11.jpg"  height="120" hspace="2" border="0" onmouseover='this.style.border=&quot;1px solid #e31a13&quot;' onmouseout='this.style.border=&quot;1px solid #CCC&quot;' style="border:1px solid #CCC;" /></td>
+                        <td width="130"><img src="pro/12.jpg"  height="120" hspace="2" border="0" onmouseover='this.style.border=&quot;1px solid #e31a13&quot;' onmouseout='this.style.border=&quot;1px solid #CCC&quot;' style="border:1px solid #CCC;" /></td>
+                        <td width="130"><img src="pro/13.jpg"  height="120" hspace="2" border="0" onmouseover='this.style.border=&quot;1px solid #e31a13&quot;' onmouseout='this.style.border=&quot;1px solid #CCC&quot;' style="border:1px solid #CCC;" /></td>
+                        <td width="130"><img src="pro/14.jpg"  height="120" hspace="2" border="0" onmouseover='this.style.border=&quot;1px solid #e31a13&quot;' onmouseout='this.style.border=&quot;1px solid #CCC&quot;' style="border:1px solid #CCC;" /></td>
+                        <td width="130"><img src="pro/15.jpg"  height="120" hspace="2" border="0" onmouseover='this.style.border=&quot;1px solid #e31a13&quot;' onmouseout='this.style.border=&quot;1px solid #CCC&quot;' style="border:1px solid #CCC;" /></td>
+                        <td width="130"><img src="pro/16.jpg"  height="120" hspace="2" border="0" onmouseover='this.style.border=&quot;1px solid #e31a13&quot;' onmouseout='this.style.border=&quot;1px solid #CCC&quot;' style="border:1px solid #CCC;" /></td>
+                        <td width="130"><img src="pro/7.jpg"  height="120" hspace="2" border="0" onmouseover='this.style.border=&quot;1px solid #e31a13&quot;' onmouseout='this.style.border=&quot;1px solid #CCC&quot;' style="border:1px solid #CCC;" /></td>
+                        <td width="130"><img src="pro/18.jpg"  height="120" hspace="2" border="0" onmouseover='this.style.border=&quot;1px solid #e31a13&quot;' onmouseout='this.style.border=&quot;1px solid #CCC&quot;' style="border:1px solid #CCC;" /></td>
+                        <td width="130"><img src="pro/9.jpg"  height="120" hspace="2" border="0" onmouseover='this.style.border=&quot;1px solid #e31a13&quot;' onmouseout='this.style.border=&quot;1px solid #CCC&quot;' style="border:1px solid #CCC;" /></td>
+                      </tr>
+                  </table></td>
+                  <td id="demo2" valign="top"></td>
+                </tr>
+              </table>
+          </div>
+              <script language="JavaScript" type="text/javascript">
+		var speed=25
+		demo2.innerHTML=demo1.innerHTML
+		function Marquee(){
+			if(demo2.offsetWidth-demo.scrollLeft<=0)
+				demo.scrollLeft-=demo1.offsetWidth
+			else{
+				demo.scrollLeft++
+			}
+		}
+
+var MyMar=setInterval(Marquee,speed)
+		demo.onmouseover=function() {clearInterval(MyMar)}
+		demo.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
+	      </script></td>
+        </tr>
+      </table>
+	  <div class="pageTitle"><strong>?¨²???¨²¦Ì?????¡êo¨º¡Á¨°3 > 1?¨®¨²?¨°??</strong></div>
+	  
+	  
+	  
+       
+        ????¨¦?o¡ê??¨¨???3¦Ì¡¤t??¨ª?¡Á¡Â?a¡Á¡§¨°¦Ì??3¦Ì¡¤t??¡ê?¨°??¡ã3?D??¡é¡Á¡§¨°¦Ì?¡é??¨¢|?¡é??D¡ì?¡À ?a¡Á¨²??¡ê??y????¨¨??¡é?a¨ª?¡ä¡äD?¡ê???¨¢|?¨¹?¨¬??¡¤????¨¦D?¨¤¦Ì¦Ì???3¦Ì¡¤t??¡Á¡§?¨°D??¨®?¡ê¨¦?o¡ê??¨¨???3¦Ì¡¤t??¨ª???¡À??¨¤?¨º¦Ì???3¦ÌDD¨°¦Ì??o??¡é¡ä¡äD?¡ê?¨¤¨²?-¨ºy?¨º¡ä¨°?¨¬¨¢?¨°??¡ì???¨¦¦Ì??¡ì?¡ãD¨ª¨ª??¨®¡ê?¨¦?o¡ê??¨¨???3¦Ì¡¤t??¨ª??¨¬??????¨¢?¨°?¡ä¨®?¨²¨®D3¡¥???¡é?o?e¨¨??¡é?2¨ª??¨¢?¡é¡ã??¡ä2?¦Ì??????¨º¡Á¡§¨°¦Ì¨¨?2?¡ê?¨º???¨°??¨ª?¡ì?¨²¨°a?¨¨?a?DD?¦Ì?¡¤t??¨¤¨ª???¡ê?¨²¨º¦Ì?¨º??¨®a?D¡ê?3?¡¤???¨®?D??¡é??¨º?¡ê????¨¹?¡¥D??¡é?¦Ì¨ª3o¨ª¡Á?o?¨ºy?Y?a??¨¬¡§¡ê???3???D¡ì¦Ì?¡¤t??¨®¨²1?¡ä¨®?¨ª?¡ì¡ê?¦Ì?¦Ì?¨¢??¨ª?¡ì?¡é¨¦??¨¢?¡Â??o¨ªDD¨°¦Ì¡Á¡§?¨°¦Ì?1?¡¤o¨¨??¨¦¡ê?2¡é?¨¤¡ä???¦Ì?DD¨°¦ÌD-?¨¢¡À¨ª???¡ê???¡Â??¨°¦Ì???¨¨2???3¡è¡ê?¨¨?¦Ì?¨¢?¨¢?o?¦Ì?¨¦??¨¢D¡ì¨°?o¨ª?-??D¡ì¨°??¡ê<br />
+         ????¨¦?o¡ê??¨¨???3¦Ì¡¤t??¨ª?o¨ª¦Ì¡À¦Ì??¨²113¡ê?¨ºo?¡Á¡Â¡ê?¨¨?3¨¬¦Ì?¡Á¨º¡ê?¨¨?3¦Ì1y¨¨£¤¦Ì¡À¨¬¨¬¡ã¨¬o?,2?D¨¨¨°a¨¬¨¢?¡ã??¨¨?o?2?¨¢?,?¨´¨®D2?¨¢?¡Á??o??¡Á?,¨¨?3¨¬¡Á?¨°????¡ã¡Á?¨°???o?,¡ã¨¬2?o??¨°??213¡é??¨¨?3¨¬?¡¤¨®¨ª¡¤?,¡ê¡§?¨°???1?¨¦¨°??a¡¤?¨¬???¡Á¡§¨¨?¡ä¨²?Y¡ê??¡ê??¦Ì??????¡ê¡ä|¦Ì?¨¨?¨¦?o??Y??¨¨?¡ã¨¹??4000?a,???Y¨¬?2?4000?a¡ã¨¹o??¨´¨®D¨¦???¡¤?¨®?,o??Y????(??A)???Y¨¬?2?????(??E)¨º?¨¦?o¡ê¡Á??¨¹¦Ì?¨°???3?¨ºD¦Ì£¤3¨¬o??Y1701?¨¤?,???Y¨¬?2?401?¨¤?¡ê?3???4S¦Ì¨º¡ê?2???-?¨²¨¦¨¬o?¡Á¡Â?¡ê?¨°??¦Ì?¨®?¨º??¨ª¨º?¦Ì¨ª????¡ê???D¡ì?¨º¡ê??TD¨¨?¡è??¡ê??¡À?¨®?¨²3¦Ì1¨¹?¨´¡ä¡ã?¨²¡ã¨¬¨¤¨ª¡ê??¨´?¨¨?¨¹?¨¬¡ê?¨º?D??¨¹¨ª¨º¡À??¡ê?¨°??¨º? ¨¦?o¡ê??¨¨???3¦Ì¡¤t??¨ª?¡ê???2?¨º???¨º????¡ê¡ê??¨¦¨°?1y¨¤¡ä¨¦?????2¨¬......</div>
+      
+    </div>
+  </div>
+  
+<div class="footer"> ¡ã?¨¨¡§?¨´¨®D Copyright (C) 2012  ¨¦?o¡ê??¨¨???3¦Ì¡¤t??¨ª?</div></div>
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fd3ffa812393b364915222be92f1be2d3' type='text/javascript'%3E%3C/script%3E"));</script>
+</body>
+</html>

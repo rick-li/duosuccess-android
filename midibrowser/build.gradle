@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "com.duosuccess.midi"
+        minSdkVersion 7
+        targetSdkVersion 15
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':library')
+    compile project(':androidactionbarlibrary')
+    compile 'com.android.support:support-v4:18.0.0'
+    compile 'com.google.guava:guava:15.0'
+    compile files('libs/android-async-http-1.4.4-fix.jar')
+    compile files('libs/avoscloud-v2.6.6.1.jar')
+    compile files('libs/avosstatistics-v2.6.6.1.jar')
+    compile files('libs/fastjson.jar')
+    compile files('libs/httpmime-4.2.4.jar')
+    compile files('libs/locSDK_3.1.jar')
+}

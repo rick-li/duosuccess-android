@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dip"
+        android:layout_marginBottom="45dip"
+        />
+
+    <com.markupartist.android.widget.ActionBar
+        android:id="@+id/actionbar"
+        style="@style/ActionBar"
+        android:layout_height="45dip"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/webView"
+        app:title="" />
+
+    <RelativeLayout
+        android:id="@+id/ly_btns"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/iv_quit_fullscreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            
+            
+            android:background="@drawable/btn_weibobrowser_quit_fullscreen" />
+    </RelativeLayout>
+
+    <com.markupartist.android.widget.ActionBar
+        android:id="@+id/bottombar"
+        style="@style/ActionBar"
+        android:layout_height="45dip"
+        android:layout_above="@+id/webView"
+        android:layout_alignParentBottom="true"
+        app:title="@string/stop" />
+
+</RelativeLayout>

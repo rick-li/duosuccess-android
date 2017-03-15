@@ -1,0 +1,165 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From android-actionbar-library:
+* actionbar.iml
+* pom.xml
+From library:
+* library.iml
+* pom.xml
+From midi-browser:
+* .DS_Store
+* .idea/
+* .idea/android.iml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/libraries/
+* .idea/libraries/android_support_v4.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/workspace.xml
+* build/
+* build/production/
+* build/production/android.apk
+* build/production/android.unaligned.apk
+* build/production/com/
+* build/production/com/duosuccess/
+* build/production/com/duosuccess/midi/
+* build/production/com/duosuccess/midi/BuildConfig.class
+* build/production/com/duosuccess/midi/R$attr.class
+* build/production/com/duosuccess/midi/R$bool.class
+* build/production/com/duosuccess/midi/R$color.class
+* build/production/com/duosuccess/midi/R$dimen.class
+* build/production/com/duosuccess/midi/R$drawable.class
+* build/production/com/duosuccess/midi/R$id.class
+* build/production/com/duosuccess/midi/R$integer.class
+* build/production/com/duosuccess/midi/R$layout.class
+* build/production/com/duosuccess/midi/R$menu.class
+* build/production/com/duosuccess/midi/R$string.class
+* build/production/com/duosuccess/midi/R$style.class
+* build/production/com/duosuccess/midi/R$styleable.class
+* build/production/com/duosuccess/midi/R$xml.class
+* build/production/com/duosuccess/midi/R.class
+* build/production/com/markupartist/
+* build/production/com/markupartist/android/
+* build/production/com/markupartist/android/widget/
+* build/production/com/markupartist/android/widget/actionbar/
+* build/production/com/markupartist/android/widget/actionbar/BuildConfig.class
+* build/production/com/markupartist/android/widget/actionbar/R$attr.class
+* build/production/com/markupartist/android/widget/actionbar/R$color.class
+* build/production/com/markupartist/android/widget/actionbar/R$dimen.class
+* build/production/com/markupartist/android/widget/actionbar/R$drawable.class
+* build/production/com/markupartist/android/widget/actionbar/R$id.class
+* build/production/com/markupartist/android/widget/actionbar/R$layout.class
+* build/production/com/markupartist/android/widget/actionbar/R$string.class
+* build/production/com/markupartist/android/widget/actionbar/R$style.class
+* build/production/com/markupartist/android/widget/actionbar/R$styleable.class
+* build/production/com/markupartist/android/widget/actionbar/R.class
+* build/production/com/viewpagerindicator/
+* build/production/com/viewpagerindicator/BuildConfig.class
+* build/production/com/viewpagerindicator/R$attr.class
+* build/production/com/viewpagerindicator/R$bool.class
+* build/production/com/viewpagerindicator/R$color.class
+* build/production/com/viewpagerindicator/R$dimen.class
+* build/production/com/viewpagerindicator/R$drawable.class
+* build/production/com/viewpagerindicator/R$id.class
+* build/production/com/viewpagerindicator/R$integer.class
+* build/production/com/viewpagerindicator/R$style.class
+* build/production/com/viewpagerindicator/R$styleable.class
+* build/production/com/viewpagerindicator/R.class
+* ic_launcher-web.png
+* keystore.txt
+* midi-browser.apk
+* midi-browser.keystore
+* midi-browser1.2.1.apk
+* midi-browser1.2.2.apk
+* midi-browser1.2.5.apk
+* midi-browser1.2.apk
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+guava-15.0.jar => com.google.guava:guava:15.0
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+guava-15.0.jar => version 15.0 in com.google.guava:guava:15.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In android-actionbar-library:
+* AndroidManifest.xml => androidactionbarlibrary/src/main/AndroidManifest.xml
+* res/ => androidactionbarlibrary/src/main/res/
+* src/ => androidactionbarlibrary/src/main/java/
+In library:
+* AndroidManifest.xml => library/src/main/AndroidManifest.xml
+* res/ => library/src/main/res/
+* src/ => library/src/main/java/
+In midi-browser:
+* AndroidManifest.xml => midibrowser/src/main/AndroidManifest.xml
+* assets/ => midibrowser/src/main/assets/
+* libs/android-async-http-1.4.4-fix.jar => midibrowser/libs/android-async-http-1.4.4-fix.jar
+* libs/armeabi/liblocSDK3.so => midibrowser/src/main/jniLibs/armeabi/liblocSDK3.so
+* libs/avoscloud-v2.6.6.1.jar => midibrowser/libs/avoscloud-v2.6.6.1.jar
+* libs/avosstatistics-v2.6.6.1.jar => midibrowser/libs/avosstatistics-v2.6.6.1.jar
+* libs/fastjson.jar => midibrowser/libs/fastjson.jar
+* libs/httpmime-4.2.4.jar => midibrowser/libs/httpmime-4.2.4.jar
+* libs/locSDK_3.1.jar => midibrowser/libs/locSDK_3.1.jar
+* lint.xml => midibrowser/lint.xml
+* res/ => midibrowser/src/main/res/
+* src/ => midibrowser/src/main/java/
+* src/.DS_Store => midibrowser/src/main/resources/.DS_Store
+* src/com/.DS_Store => midibrowser/src/main/resources/com/.DS_Store
+* src/com/duo/.DS_Store => midibrowser/src/main/resources/com/duo/.DS_Store
+* src/com/duo/midi/.DS_Store => midibrowser/src/main/resources/com/duo/midi/.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
