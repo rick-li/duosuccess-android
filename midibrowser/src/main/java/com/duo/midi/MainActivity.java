@@ -30,6 +30,7 @@ public class MainActivity extends FragmentActivity {
 	private boolean isMusicPageSelected = true;
 	MusicFragment musicFragment = null;
 	SonarFragment sonarFragment = null;
+	DecentralizedFragment decentralizedFragment = null;
 	TabPageIndicator indicator = null;
 	public static MainActivity instance = null;
 	WifiLock wifiLock;
@@ -49,6 +50,8 @@ public class MainActivity extends FragmentActivity {
 		this.musicFragment.setRetainInstance(true);
 		this.sonarFragment = new SonarFragment();
 		this.sonarFragment.setRetainInstance(true);
+		this.decentralizedFragment = new DecentralizedFragment();
+		this.decentralizedFragment.setRetainInstance(true);
 
 		ViewPager pager = (ViewPager) findViewById(R.id.pager);
 		pager.setAdapter(adapter);
@@ -68,12 +71,11 @@ public class MainActivity extends FragmentActivity {
 
 			@Override
 			public void onPageSelected(int pageNo) {
-				if (pageNo == 0) {
-					isMusicPageSelected = true;
-				} else {
+				if (pageNo == 1 ) {
 					sonarFragment.startLocationService();
-					isMusicPageSelected = false;
 				}
+
+				isMusicPageSelected = (pageNo == 0);
 			}
 		});
 
@@ -159,8 +161,10 @@ public class MainActivity extends FragmentActivity {
 
 			if (position == 0) {
 				return musicFragment;
-			} else {
+			} else if (position == 1) {
 				return sonarFragment;
+			} else {
+				return decentralizedFragment;
 			}
 		}
 
@@ -169,15 +173,17 @@ public class MainActivity extends FragmentActivity {
 
 			if (position == 0) {
 				return "多成音樂";
-			} else {
+			} else if (position == 1){
 				return "真太陽時";
+			} else {
+				return "去中心化";
 			}
 
 		}
 
 		@Override
 		public int getCount() {
-			return 2;
+			return 3;
 		}
 	}
 
@@ -185,14 +191,15 @@ public class MainActivity extends FragmentActivity {
 	public void onBackPressed() {
 		Log.i(TAG, "Main back pressed.");
 
-		if (isMusicPageSelected) {
+//		if (isMusicPageSelected) {
 			boolean handled = this.musicFragment.onBackPressed();
+			handled = this.decentralizedFragment.onBackPressed();
 			if (!handled) {
 				super.onBackPressed();
 			}
-		} else {
-			super.onBackPressed();
-		}
+//		} else {
+//			super.onBackPressed();
+//		}
 	}
 
 	public MusicFragment getMusicFragment() {

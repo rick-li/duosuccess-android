@@ -29,6 +29,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
 import android.view.ViewGroup;
+import android.webkit.JavascriptInterface;
 import android.webkit.WebSettings;
 import android.webkit.WebSettings.ZoomDensity;
 import android.webkit.WebView;
@@ -147,6 +148,7 @@ public class MusicFragment extends Fragment implements Handler.Callback {
 
 			@Override
 			public void performAction(View view) {
+				stopMedia();
 				webView.loadUrl(homeUrl);
 			}
 
@@ -342,6 +344,7 @@ public class MusicFragment extends Fragment implements Handler.Callback {
 		});
 
 		class MidiExtractor {
+			@JavascriptInterface
 			@SuppressWarnings("unused")
 			public void extract(String midiFile, String pageUrl) {
 				Log.i(TAG, "pageUrl is " + pageUrl);
@@ -559,8 +562,9 @@ public class MusicFragment extends Fragment implements Handler.Callback {
 		if (webView != null && webView.canGoBack()) {
 			webView.goBack();
 			handled = true;
+			stopMedia();
 		}
-		stopMedia();
+
 		return handled;
 	}
 

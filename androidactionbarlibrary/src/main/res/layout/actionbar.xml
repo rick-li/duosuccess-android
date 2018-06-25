@@ -64,7 +64,17 @@
                 android:padding="0dip"
                 android:visibility="gone"
                 />
-        </RelativeLayout>
+
+            <EditText
+                android:id="@+id/actionbar_edit_text"
+                android:layout_marginLeft="@dimen/actionbar_item_width"
+                android:layout_centerVertical="true"
+                android:layout_width="fill_parent"
+                android:padding="0dip"
+                android:layout_height="@dimen/actionbar_height"
+                android:visibility="gone"
+                />
+            </RelativeLayout>
         <LinearLayout
             android:orientation="horizontal"
             android:id="@+id/actionbar_actions"

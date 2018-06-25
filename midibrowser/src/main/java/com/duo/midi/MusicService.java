@@ -69,14 +69,17 @@ public class MusicService extends Service {
 		}
 		String midiName = intent.getStringExtra("midiFile");
 		FileInputStream fis = null;
-		try {
-			fis = this.openFileInput(midiName);
-		} catch (Exception e1) {
-			e1.printStackTrace();
-			stopSelf();
-			Toast.makeText(this, "音乐文件未找到。", 2000).show();
-			AVOSLogger.error("File not found." + e1.getMessage());
+		if(!midiName.endsWith(".mp3")){
+			try {
+				fis = this.openFileInput(midiName);
+			} catch (Exception e1) {
+				e1.printStackTrace();
+				stopSelf();
+				Toast.makeText(this, "音乐文件未找到。", 2000).show();
+				AVOSLogger.error("File not found." + e1.getMessage());
+			}
 		}
+
 		AVOSLogger.info("Start MP");
 		mp = new MediaPlayer();
 		mp.reset();
@@ -89,7 +92,12 @@ public class MusicService extends Service {
 					return true;
 				}
 			});
-			mp.setDataSource(fis.getFD());
+			if(midiName.endsWith(".mp3")){
+				mp.setDataSource(midiName);
+			}else{
+				mp.setDataSource(fis.getFD());
+			}
+
 			mp.setOnPreparedListener(new OnPreparedListener() {
 
 				@Override
