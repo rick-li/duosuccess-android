@@ -218,8 +218,8 @@ public class DecentralizedFragment extends Fragment implements Handler.Callback{
                 // handler.sendEmptyMessage(CLICK_ON_URL);
                 stopMedia();
                 if (url.contains("/shop/") && url.startsWith("http:")) {
-                    url = url.replace("http:", "https:");
-                    url = url.replace("69.195.73.224", "www.duosuccess.com");
+//                    url = url.replace("http:", "https:");
+//                    url = url.replace("69.195.73.224", "www.duosuccess.com");
 
                     Log.i(TAG, "new url is " + url);
                     view.loadUrl(url);

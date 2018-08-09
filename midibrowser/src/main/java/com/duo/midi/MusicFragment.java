@@ -52,7 +52,7 @@ public class MusicFragment extends Fragment implements Handler.Callback {
 
 	private static final int CLICK_ON_WEBVIEW = 1;
 
-	private static final String homeUrl = "http://69.195.73.224";
+	private static final String homeUrl = "https://www.duosuccess.com";
 	// private static final String homeUrl =
 	// "http://rick-li.github.io/android-midi/index.html";
 	// private static final String homeUrl = "http://www.baidu.com";
@@ -277,7 +277,7 @@ public class MusicFragment extends Fragment implements Handler.Callback {
 				Log.i(TAG, "Page started " + url);
 				if (url.contains("/shop/") && url.startsWith("http:")) {
 					url = url.replace("http:", "https:");
-					url = url.replace("69.195.73.224", "www.duosuccess.com");
+//					url = url.replace("69.195.73.224", "www.duosuccess.com");
 					Log.i(TAG, "new url is " + url);
 
 				}
@@ -312,7 +312,7 @@ public class MusicFragment extends Fragment implements Handler.Callback {
 				stopMedia();
 				if (url.contains("/shop/") && url.startsWith("http:")) {
 					url = url.replace("http:", "https:");
-					url = url.replace("69.195.73.224", "www.duosuccess.com");
+//					url = url.replace("69.195.73.224", "www.duosuccess.com");
 
 					Log.i(TAG, "new url is " + url);
 					view.loadUrl(url);
