@@ -55,3 +55,6 @@ freeline/
 freeline_project_description.json
 
 .idea/
+
+midibrowser/release/
+key

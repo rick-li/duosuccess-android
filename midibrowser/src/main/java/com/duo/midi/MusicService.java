@@ -65,7 +65,7 @@ public class MusicService extends Service {
 		Log.d(TAG, "onHandleIntent");
 		if (intent == null) {
 			Log.e(TAG, "intent is null, exiting.");
-			return 0;
+			return Service.START_STICKY_COMPATIBILITY;
 		}
 		String midiName = intent.getStringExtra("midiFile");
 		FileInputStream fis = null;
@@ -75,7 +75,7 @@ public class MusicService extends Service {
 			} catch (Exception e1) {
 				e1.printStackTrace();
 				stopSelf();
-				Toast.makeText(this, "音乐文件未找到。", 2000).show();
+				Toast.makeText(this, "音乐文件未找到。", Toast.LENGTH_LONG).show();
 				AVOSLogger.error("File not found." + e1.getMessage());
 			}
 		}

@@ -366,7 +366,7 @@ public class DecentralizedFragment extends Fragment implements Handler.Callback{
             if (this.getActivity().deleteFile(tmpMidiFile)) {
                 Log.i(TAG, "Successfully cleared cache.");
                 // ParseAnalytics.trackEvent("Cache clear successful.");
-                Toast.makeText(this.getActivity(), "已经清除缓存音乐", 2000).show();
+                Toast.makeText(this.getActivity(), "已经清除缓存音乐", Toast.LENGTH_SHORT).show();
             }
         }
     }
