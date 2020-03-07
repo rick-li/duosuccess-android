@@ -26,7 +26,9 @@
     </uses-permission>
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+
 
     <application
     	android:name="com.duo.midi.App"

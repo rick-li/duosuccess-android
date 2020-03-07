@@ -32,12 +32,15 @@ android {
 dependencies {
     implementation project(':library')
     implementation project(':androidactionbarlibrary')
-    implementation 'com.android.support:support-v4:18.0.0'
+
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation     'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
     implementation 'com.google.guava:guava:15.0'
     implementation files('libs/android-async-http-1.4.4-fix.jar')
     implementation files('libs/avoscloud-v2.6.6.1.jar')
     implementation files('libs/avosstatistics-v2.6.6.1.jar')
     implementation files('libs/fastjson.jar')
-    implementation files('libs/locSDK_3.1.jar')
+
     implementation 'com.squareup.okhttp3:okhttp:3.10.0'
 }

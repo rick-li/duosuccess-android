@@ -166,7 +166,7 @@ h1 {
 	function initialize() {
 		detectBrowser();
 		
-		/*
+
 		if (navigator.geolocation) {
 
 			navigator.geolocation.getCurrentPosition(function(position) {
@@ -179,7 +179,7 @@ h1 {
 
 		} else {
 			document.getElementById('error').style.display='inline';
-		}*/
+		}
 	}
 
 
@@ -187,7 +187,7 @@ h1 {
 	function detectBrowser() {
 		  var useragent = navigator.userAgent;
 		  var mapdiv = document.getElementById("map_canvas");
-
+		alert('useragent')
 		  if (useragent.indexOf('iPhone') != -1 || useragent.indexOf('Android') != -1 ) {
 		    mapdiv.style.width = '100%';
 		    mapdiv.style.height = '250px';

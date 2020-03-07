@@ -6,22 +6,29 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 import android.annotation.SuppressLint;
+import android.annotation.TargetApi;
 import android.app.Notification;
+import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnErrorListener;
 import android.media.MediaPlayer.OnPreparedListener;
 import android.net.wifi.WifiManager.WifiLock;
+import android.os.Build;
 import android.os.IBinder;
 import android.os.PowerManager;
+import android.support.annotation.NonNull;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.widget.Toast;
 
 import com.duosuccess.midi.R;
+
+import static android.support.v4.app.NotificationCompat.PRIORITY_LOW;
 
 public class MusicService extends Service {
 	public MusicService() {
@@ -53,14 +60,57 @@ public class MusicService extends Service {
 	WifiLock wifiLock = null;
 	private static final int NOTIFY_PLAYER_ID = 1339;
 
-	@SuppressLint("NewApi")
+	public Notification getNotification() {
+		String channel;
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
+			channel = createChannel();
+		else {
+			channel = "";
+		}
+		NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this, channel)
+				.setSmallIcon(R.drawable.ic_launcher)
+				.setContentTitle("多成中醫");
+		Notification notification = mBuilder
+				.setPriority(PRIORITY_LOW)
+				.setCategory(Notification.CATEGORY_SERVICE)
+				.build();
+
+
+		return notification;
+	}
+
+	@NonNull
+	@TargetApi(26)
+	private synchronized String createChannel() {
+		NotificationManager mNotificationManager = (NotificationManager) this.getSystemService(Context.NOTIFICATION_SERVICE);
+
+		String name = "多成中醫";
+		int importance = NotificationManager.IMPORTANCE_LOW;
+
+		NotificationChannel mChannel = new NotificationChannel("com.duosuccess", name, importance);
+
+		mChannel.enableLights(true);
+		mChannel.setName(name);
+		mChannel.setLightColor(Color.BLUE);
+		if (mNotificationManager != null) {
+			mNotificationManager.createNotificationChannel(mChannel);
+		} else {
+			stopSelf();
+		}
+		return "com.duosuccess";
+	}
+
 	@Override
 	public int onStartCommand(Intent intent, int flags, int startId) {
 
 		// Notification myNotify = new Notification.Builder(this)
 		// .setSmallIcon(R.drawable.ic_launcher).setContentTitle("多成中醫")
 		// .setContentText("正在播放").build();
-		Notification notification = createNotification();
+		Notification notification = getNotification();
+//		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
+//			startMyOwnForeground();
+//		else
+//			startForeground(NOTIFY_PLAYER_ID, notification);
 		this.startForeground(NOTIFY_PLAYER_ID, notification);
 		Log.d(TAG, "onHandleIntent");
 		if (intent == null) {

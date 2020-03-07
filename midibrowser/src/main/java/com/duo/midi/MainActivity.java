@@ -72,7 +72,7 @@ public class MainActivity extends FragmentActivity {
 			@Override
 			public void onPageSelected(int pageNo) {
 				if (pageNo == 1 ) {
-					sonarFragment.startLocationService();
+//					sonarFragment.startLocationService();
 				}
 
 				isMusicPageSelected = (pageNo == 0);
